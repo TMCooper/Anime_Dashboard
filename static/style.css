@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    height: 100vh; /* S'assurer que le body occupe toute la hauteur de la page */
+    background-image: url('/static/images/forest.gif'); /* Remplacez ce chemin par celui de votre GIF */
+    background-size: cover; /* Assure que le GIF couvre tout l'écran */
+    background-position: center; /* Centrer le GIF */
+    background-repeat: no-repeat; /* Ne pas répéter le GIF */
+    display: flex;
+}
+
+#heure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Couleur du texte, à ajuster si nécessaire */
+    text-align: center;
+}
